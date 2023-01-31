@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "324372110268",
+    "project_id": "question1-832d9",
+    "storage_bucket": "question1-832d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:324372110268:android:334d5a9e9511f16f1269b9",
+        "android_client_info": {
+          "package_name": "com.example.seminarja"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "324372110268-sm9utjirakltifo9l6q7hgb4lkc6qtbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzEQ_z3FNYrnwYCpAeK07K84ynbJ4THJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "324372110268-sm9utjirakltifo9l6q7hgb4lkc6qtbi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
