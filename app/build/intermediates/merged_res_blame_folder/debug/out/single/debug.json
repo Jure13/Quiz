@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/xml_backup_rules.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/layout_activity_finished_screen.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/layout/activity_finished_screen.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/layout_activity_high_score2.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/layout/activity_high_score2.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/layout_activity_register_user.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/layout/activity_register_user.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/layout_activity_finished.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/layout/activity_finished.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/anim_scale.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/anim/scale.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/layout_activity_register.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/layout_activity_quiz.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/layout/activity_quiz.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/layout_user_layout.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/layout/user_layout.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/layout_activity_main.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/layout_activity_menu2.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/layout/activity_menu2.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/mipmap-anydpi-v33/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-merged_res-34:/layout_activity_quiz2.xml.flat",
+        "source": "/Users/petarjukic/.gradle/daemon/7.5/com.example.seminarja.app-main-36:/layout/activity_quiz2.xml"
+    },
+    {
+        "merged": "com.example.seminarja.app-merged_res-34:/layout_activity_quiz2.xml.flat",
+        "source": "com.example.seminarja.app-main-36:/layout/activity_quiz2.xml"
+    }
+]
