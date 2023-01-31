@@ -1,0 +1,329 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.seminarja"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+8-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:23:5-67
+11-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:23:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:24:5-79
+12-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:24:22-76
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/7762f295ca2df5f495acdfd7846ee0c7/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:24:5-68
+13-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/7762f295ca2df5f495acdfd7846ee0c7/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:24:22-65
+14    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+14-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/7762f295ca2df5f495acdfd7846ee0c7/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:25:5-79
+14-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/7762f295ca2df5f495acdfd7846ee0c7/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:25:22-76
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/781dc573bd84d9333b3236b3f2dced73/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:26:5-110
+15-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/781dc573bd84d9333b3236b3f2dced73/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:26:22-107
+16
+17    <permission
+17-->[androidx.core:core:1.9.0] /Users/petarjukic/.gradle/caches/transforms-3/a005c092f95db301816970f7ca5095a5/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.seminarja.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.9.0] /Users/petarjukic/.gradle/caches/transforms-3/a005c092f95db301816970f7ca5095a5/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.9.0] /Users/petarjukic/.gradle/caches/transforms-3/a005c092f95db301816970f7ca5095a5/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.seminarja.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.9.0] /Users/petarjukic/.gradle/caches/transforms-3/a005c092f95db301816970f7ca5095a5/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.9.0] /Users/petarjukic/.gradle/caches/transforms-3/a005c092f95db301816970f7ca5095a5/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:5:5-58:19
+24        android:allowBackup="true"
+24-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:6:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] /Users/petarjukic/.gradle/caches/transforms-3/a005c092f95db301816970f7ca5095a5/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+26        android:dataExtractionRules="@xml/data_extraction_rules"
+26-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:7:9-65
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:fullBackupContent="@xml/backup_rules"
+29-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:8:9-54
+30        android:icon="@mipmap/ic_launcher"
+30-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:9:9-43
+31        android:label="@string/app_name"
+31-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:10:9-41
+32        android:supportsRtl="true"
+32-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:11:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.SeminarJA" >
+34-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:12:9-47
+35        <activity
+35-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:14:9-20:20
+36            android:name="com.example.seminarja.QuizActivity"
+36-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:15:13-41
+37            android:exported="false" >
+37-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:16:13-37
+38            <meta-data
+38-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:17:13-19:36
+39                android:name="android.app.lib_name"
+39-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:18:17-52
+40                android:value="" />
+40-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:19:17-33
+41        </activity>
+42        <activity
+42-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:21:9-27:20
+43            android:name="com.example.seminarja.HighScoreActivity"
+43-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:22:13-46
+44            android:exported="false" >
+44-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:23:13-37
+45            <meta-data
+45-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:17:13-19:36
+46                android:name="android.app.lib_name"
+46-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:18:17-52
+47                android:value="" />
+47-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:19:17-33
+48        </activity>
+49        <activity
+49-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:28:9-34:20
+50            android:name="com.example.seminarja.MenuActivity"
+50-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:29:13-41
+51            android:exported="false" >
+51-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:30:13-37
+52            <meta-data
+52-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:17:13-19:36
+53                android:name="android.app.lib_name"
+53-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:18:17-52
+54                android:value="" />
+54-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:19:17-33
+55        </activity>
+56        <activity
+56-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:35:9-41:20
+57            android:name="com.example.seminarja.FinishedActivity"
+57-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:36:13-45
+58            android:exported="false" >
+58-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:37:13-37
+59            <meta-data
+59-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:17:13-19:36
+60                android:name="android.app.lib_name"
+60-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:18:17-52
+61                android:value="" />
+61-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:19:17-33
+62        </activity>
+63        <activity
+63-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:42:9-48:20
+64            android:name="com.example.seminarja.RegisterActivity"
+64-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:43:13-45
+65            android:exported="false" >
+65-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:44:13-37
+66            <meta-data
+66-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:17:13-19:36
+67                android:name="android.app.lib_name"
+67-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:18:17-52
+68                android:value="" />
+68-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:19:17-33
+69        </activity>
+70        <activity
+70-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:49:9-57:20
+71            android:name="com.example.seminarja.MainActivity"
+71-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:50:13-41
+72            android:exported="true" >
+72-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:51:13-36
+73            <intent-filter>
+73-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:52:13-56:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:53:17-69
+74-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:53:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:55:17-77
+76-->/Users/petarjukic/Downloads/seminarJA/app/src/main/AndroidManifest.xml:55:27-74
+77            </intent-filter>
+78        </activity>
+79        <activity
+79-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:27:9-44:20
+80            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+80-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:28:13-80
+81            android:excludeFromRecents="true"
+81-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:29:13-46
+82            android:exported="true"
+82-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:30:13-36
+83            android:launchMode="singleTask"
+83-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:31:13-44
+84            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+84-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:32:13-72
+85            <intent-filter>
+85-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:33:13-43:29
+86                <action android:name="android.intent.action.VIEW" />
+86-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+86-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+88-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+89                <category android:name="android.intent.category.BROWSABLE" />
+89-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+89-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+90
+91                <data
+91-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+92                    android:host="firebase.auth"
+92-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+93                    android:path="/"
+93-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+94                    android:scheme="genericidp" />
+94-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+95            </intent-filter>
+96        </activity>
+97        <activity
+97-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:45:9-62:20
+98            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+98-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:46:13-79
+99            android:excludeFromRecents="true"
+99-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:47:13-46
+100            android:exported="true"
+100-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:48:13-36
+101            android:launchMode="singleTask"
+101-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:49:13-44
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+102-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:50:13-72
+103            <intent-filter>
+103-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:51:13-61:29
+104                <action android:name="android.intent.action.VIEW" />
+104-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:17-69
+104-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:34:25-66
+105
+106                <category android:name="android.intent.category.DEFAULT" />
+106-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:17-76
+106-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:36:27-73
+107                <category android:name="android.intent.category.BROWSABLE" />
+107-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:17-78
+107-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:37:27-75
+108
+109                <data
+109-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:39:17-42:51
+110                    android:host="firebase.auth"
+110-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:40:21-49
+111                    android:path="/"
+111-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:41:21-37
+112                    android:scheme="recaptcha" />
+112-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:42:21-48
+113            </intent-filter>
+114        </activity>
+115
+116        <service
+116-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:64:9-70:19
+117            android:name="com.google.firebase.components.ComponentDiscoveryService"
+117-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:65:13-84
+118            android:directBootAware="true"
+118-->[com.google.firebase:firebase-common:20.3.0] /Users/petarjukic/.gradle/caches/transforms-3/37c93b7fa9aea85685ca2122e219c349/transformed/firebase-common-20.3.0/AndroidManifest.xml:34:13-43
+119            android:exported="false" >
+119-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:66:13-37
+120            <meta-data
+120-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:67:13-69:85
+121                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+121-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:68:17-109
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.firebase:firebase-auth:21.1.0] /Users/petarjukic/.gradle/caches/transforms-3/ecc7131c176febeec8fca1d3dac5a44b/transformed/firebase-auth-21.1.0/AndroidManifest.xml:69:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-database:20.1.0] /Users/petarjukic/.gradle/caches/transforms-3/40aeb8f8e6a528993bf4b88d1df8437e/transformed/firebase-database-20.1.0/AndroidManifest.xml:31:13-33:85
+124                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+124-->[com.google.firebase:firebase-database:20.1.0] /Users/petarjukic/.gradle/caches/transforms-3/40aeb8f8e6a528993bf4b88d1df8437e/transformed/firebase-database-20.1.0/AndroidManifest.xml:32:17-109
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-database:20.1.0] /Users/petarjukic/.gradle/caches/transforms-3/40aeb8f8e6a528993bf4b88d1df8437e/transformed/firebase-database-20.1.0/AndroidManifest.xml:33:17-82
+126            <meta-data
+126-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/7762f295ca2df5f495acdfd7846ee0c7/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:31:13-33:85
+127                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+127-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/7762f295ca2df5f495acdfd7846ee0c7/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:32:17-139
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.android.gms:play-services-measurement-api:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/7762f295ca2df5f495acdfd7846ee0c7/transformed/play-services-measurement-api-21.2.0/AndroidManifest.xml:33:17-82
+129            <meta-data
+129-->[com.google.firebase:firebase-installations:17.1.0] /Users/petarjukic/.gradle/caches/transforms-3/f1a5b69664cc60994812a5c1024994b3/transformed/firebase-installations-17.1.0/AndroidManifest.xml:17:13-19:85
+130                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+130-->[com.google.firebase:firebase-installations:17.1.0] /Users/petarjukic/.gradle/caches/transforms-3/f1a5b69664cc60994812a5c1024994b3/transformed/firebase-installations-17.1.0/AndroidManifest.xml:18:17-127
+131                android:value="com.google.firebase.components.ComponentRegistrar" />
+131-->[com.google.firebase:firebase-installations:17.1.0] /Users/petarjukic/.gradle/caches/transforms-3/f1a5b69664cc60994812a5c1024994b3/transformed/firebase-installations-17.1.0/AndroidManifest.xml:19:17-82
+132        </service>
+133
+134        <provider
+134-->[com.google.firebase:firebase-common:20.3.0] /Users/petarjukic/.gradle/caches/transforms-3/37c93b7fa9aea85685ca2122e219c349/transformed/firebase-common-20.3.0/AndroidManifest.xml:25:9-30:39
+135            android:name="com.google.firebase.provider.FirebaseInitProvider"
+135-->[com.google.firebase:firebase-common:20.3.0] /Users/petarjukic/.gradle/caches/transforms-3/37c93b7fa9aea85685ca2122e219c349/transformed/firebase-common-20.3.0/AndroidManifest.xml:26:13-77
+136            android:authorities="com.example.seminarja.firebaseinitprovider"
+136-->[com.google.firebase:firebase-common:20.3.0] /Users/petarjukic/.gradle/caches/transforms-3/37c93b7fa9aea85685ca2122e219c349/transformed/firebase-common-20.3.0/AndroidManifest.xml:27:13-72
+137            android:directBootAware="true"
+137-->[com.google.firebase:firebase-common:20.3.0] /Users/petarjukic/.gradle/caches/transforms-3/37c93b7fa9aea85685ca2122e219c349/transformed/firebase-common-20.3.0/AndroidManifest.xml:28:13-43
+138            android:exported="false"
+138-->[com.google.firebase:firebase-common:20.3.0] /Users/petarjukic/.gradle/caches/transforms-3/37c93b7fa9aea85685ca2122e219c349/transformed/firebase-common-20.3.0/AndroidManifest.xml:29:13-37
+139            android:initOrder="100" />
+139-->[com.google.firebase:firebase-common:20.3.0] /Users/petarjukic/.gradle/caches/transforms-3/37c93b7fa9aea85685ca2122e219c349/transformed/firebase-common-20.3.0/AndroidManifest.xml:30:13-36
+140
+141        <activity
+141-->[com.google.android.gms:play-services-base:18.0.1] /Users/petarjukic/.gradle/caches/transforms-3/13a5f05027d933b8c7832d61d9f66eef/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+142            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+142-->[com.google.android.gms:play-services-base:18.0.1] /Users/petarjukic/.gradle/caches/transforms-3/13a5f05027d933b8c7832d61d9f66eef/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+143            android:exported="false"
+143-->[com.google.android.gms:play-services-base:18.0.1] /Users/petarjukic/.gradle/caches/transforms-3/13a5f05027d933b8c7832d61d9f66eef/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+144            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+144-->[com.google.android.gms:play-services-base:18.0.1] /Users/petarjukic/.gradle/caches/transforms-3/13a5f05027d933b8c7832d61d9f66eef/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+145
+146        <receiver
+146-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/781dc573bd84d9333b3236b3f2dced73/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:29:9-33:20
+147            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+147-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/781dc573bd84d9333b3236b3f2dced73/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:30:13-85
+148            android:enabled="true"
+148-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/781dc573bd84d9333b3236b3f2dced73/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:31:13-35
+149            android:exported="false" >
+149-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/781dc573bd84d9333b3236b3f2dced73/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:32:13-37
+150        </receiver>
+151
+152        <service
+152-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/781dc573bd84d9333b3236b3f2dced73/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:35:9-38:40
+153            android:name="com.google.android.gms.measurement.AppMeasurementService"
+153-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/781dc573bd84d9333b3236b3f2dced73/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:36:13-84
+154            android:enabled="true"
+154-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/781dc573bd84d9333b3236b3f2dced73/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:37:13-35
+155            android:exported="false" />
+155-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/781dc573bd84d9333b3236b3f2dced73/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:38:13-37
+156        <service
+156-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/781dc573bd84d9333b3236b3f2dced73/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:39:9-43:72
+157            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+157-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/781dc573bd84d9333b3236b3f2dced73/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:40:13-87
+158            android:enabled="true"
+158-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/781dc573bd84d9333b3236b3f2dced73/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:41:13-35
+159            android:exported="false"
+159-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/781dc573bd84d9333b3236b3f2dced73/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:42:13-37
+160            android:permission="android.permission.BIND_JOB_SERVICE" />
+160-->[com.google.android.gms:play-services-measurement:21.2.0] /Users/petarjukic/.gradle/caches/transforms-3/781dc573bd84d9333b3236b3f2dced73/transformed/play-services-measurement-21.2.0/AndroidManifest.xml:43:13-69
+161
+162        <meta-data
+162-->[com.google.android.gms:play-services-basement:18.1.0] /Users/petarjukic/.gradle/caches/transforms-3/8c20feee8d1713913812ecb5f689b864/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+163            android:name="com.google.android.gms.version"
+163-->[com.google.android.gms:play-services-basement:18.1.0] /Users/petarjukic/.gradle/caches/transforms-3/8c20feee8d1713913812ecb5f689b864/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+164            android:value="@integer/google_play_services_version" />
+164-->[com.google.android.gms:play-services-basement:18.1.0] /Users/petarjukic/.gradle/caches/transforms-3/8c20feee8d1713913812ecb5f689b864/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+165
+166        <provider
+166-->[androidx.emoji2:emoji2:1.2.0] /Users/petarjukic/.gradle/caches/transforms-3/0051a40cac3a6088fdc1fc1c48e825e7/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+167            android:name="androidx.startup.InitializationProvider"
+167-->[androidx.emoji2:emoji2:1.2.0] /Users/petarjukic/.gradle/caches/transforms-3/0051a40cac3a6088fdc1fc1c48e825e7/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+168            android:authorities="com.example.seminarja.androidx-startup"
+168-->[androidx.emoji2:emoji2:1.2.0] /Users/petarjukic/.gradle/caches/transforms-3/0051a40cac3a6088fdc1fc1c48e825e7/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+169            android:exported="false" >
+169-->[androidx.emoji2:emoji2:1.2.0] /Users/petarjukic/.gradle/caches/transforms-3/0051a40cac3a6088fdc1fc1c48e825e7/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+170            <meta-data
+170-->[androidx.emoji2:emoji2:1.2.0] /Users/petarjukic/.gradle/caches/transforms-3/0051a40cac3a6088fdc1fc1c48e825e7/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+171                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+171-->[androidx.emoji2:emoji2:1.2.0] /Users/petarjukic/.gradle/caches/transforms-3/0051a40cac3a6088fdc1fc1c48e825e7/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+172                android:value="androidx.startup" />
+172-->[androidx.emoji2:emoji2:1.2.0] /Users/petarjukic/.gradle/caches/transforms-3/0051a40cac3a6088fdc1fc1c48e825e7/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+173            <meta-data
+173-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/petarjukic/.gradle/caches/transforms-3/cca7f1be27d183a544f0d166982b8dce/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+174                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+174-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/petarjukic/.gradle/caches/transforms-3/cca7f1be27d183a544f0d166982b8dce/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+175                android:value="androidx.startup" />
+175-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/petarjukic/.gradle/caches/transforms-3/cca7f1be27d183a544f0d166982b8dce/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+176        </provider>
+177    </application>
+178
+179</manifest>
