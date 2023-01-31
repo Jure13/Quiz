@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">324372110268-sm9utjirakltifo9l6q7hgb4lkc6qtbi.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">324372110268</string>
+    <string name="google_api_key" translatable="false">AIzaSyAzEQ_z3FNYrnwYCpAeK07K84ynbJ4THJA</string>
+    <string name="google_app_id" translatable="false">1:324372110268:android:334d5a9e9511f16f1269b9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAzEQ_z3FNYrnwYCpAeK07K84ynbJ4THJA</string>
+    <string name="google_storage_bucket" translatable="false">question1-832d9.appspot.com</string>
+    <string name="project_id" translatable="false">question1-832d9</string>
+</resources>
