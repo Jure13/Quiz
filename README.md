@@ -5,4 +5,4 @@ Admin can add, edit and remove the questions,
 while the user can, after registration,
 play the game and save their result(s).
 
-Firebase was used as a database.
+Firebase is used as a database.
