@@ -1,3 +1,2 @@
 # Quiz
-
-This app was made for a college class.
+An Android application, written in Java.
